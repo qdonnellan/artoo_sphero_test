@@ -1,0 +1,287 @@
+Last login: Mon Oct 21 18:05:23 on ttys000
+Quentins-MacBook-Air:~ quentin$ bash Github/artoo*/connect.sh BOW 8560
+2013/10/21 18:07:29 socat[7945] D getpid()
+2013/10/21 18:07:29 socat[7945] D getpid() -> 7945
+2013/10/21 18:07:29 socat[7945] D setenv("SOCAT_PID", "7945", 1)
+2013/10/21 18:07:29 socat[7945] D setenv() -> 0
+2013/10/21 18:07:29 socat[7945] D setenv("SOCAT_PPID", "7945", 1)
+2013/10/21 18:07:29 socat[7945] D setenv() -> 0
+2013/10/21 18:07:29 socat[7945] I socat by Gerhard Rieger - see www.dest-unreach.org
+2013/10/21 18:07:29 socat[7945] I This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+2013/10/21 18:07:29 socat[7945] I This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+2013/10/21 18:07:29 socat[7945] D socat version 1.7.2.1 on Oct 21 2013 10:30:40
+2013/10/21 18:07:29 socat[7945] D setenv("SOCAT_VERSION", "1.7.2.1", 1)
+2013/10/21 18:07:29 socat[7945] D setenv() -> 0
+2013/10/21 18:07:29 socat[7945] D running on Darwin version Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64, release 12.5.0, machine x86_64
+
+2013/10/21 18:07:29 socat[7945] D argv[0]: "socat"
+2013/10/21 18:07:29 socat[7945] D argv[1]: "-d"
+2013/10/21 18:07:29 socat[7945] D argv[2]: "-d"
+2013/10/21 18:07:29 socat[7945] D argv[3]: "-d"
+2013/10/21 18:07:29 socat[7945] D argv[4]: "-d"
+2013/10/21 18:07:29 socat[7945] D argv[5]: "-b57600"
+2013/10/21 18:07:29 socat[7945] D argv[6]: "FILE:/dev/tty.Sphero-BOW-AMP-SPP,nonblock,raw,echo=0"
+2013/10/21 18:07:29 socat[7945] D argv[7]: "TCP-LISTEN:8560,fork"
+2013/10/21 18:07:29 socat[7945] D signal(1, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(2, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(3, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(4, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(10, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(8, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(11, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D signal(15, 0x104c601e8)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D atexit(0x104c6028d)
+2013/10/21 18:07:29 socat[7945] D atexit() -> 0
+2013/10/21 18:07:29 socat[7945] D signal(13, 0x1)
+2013/10/21 18:07:29 socat[7945] D signal() -> 0x0
+2013/10/21 18:07:29 socat[7945] D calloc(1, 816)
+2013/10/21 18:07:29 socat[7945] D calloc() -> 0x7f8498404260
+2013/10/21 18:07:29 socat[7945] D malloc(1024)
+2013/10/21 18:07:29 socat[7945] D malloc() -> 0x7f8498807400
+2013/10/21 18:07:29 socat[7945] I setting option "o-nonblock" to 1
+2013/10/21 18:07:29 socat[7945] I setting option "raw"
+2013/10/21 18:07:29 socat[7945] I setting option "echo" to 0
+2013/10/21 18:07:29 socat[7945] D stat64(/dev/tty.Sphero-BOW-AMP-SPP, 0x7fff5afa2070)
+2013/10/21 18:07:29 socat[7945] D stat64(, {347720680,675,020666,1,0,0,570425362,0,131072,0,...}) -> 0
+2013/10/21 18:07:29 socat[7945] N opening character device "/dev/tty.Sphero-BOW-AMP-SPP" for reading and writing
+2013/10/21 18:07:29 socat[7945] D open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666)
+2013/10/21 18:07:34 socat[7945] I open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666) -> -1
+2013/10/21 18:07:34 socat[7945] E open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666): Resource busy
+2013/10/21 18:07:34 socat[7945] N exit(1)
+retry...
+2013/10/21 18:07:34 socat[7947] D getpid()
+2013/10/21 18:07:34 socat[7947] D getpid() -> 7947
+2013/10/21 18:07:34 socat[7947] D setenv("SOCAT_PID", "7947", 1)
+2013/10/21 18:07:34 socat[7947] D setenv() -> 0
+2013/10/21 18:07:34 socat[7947] D setenv("SOCAT_PPID", "7947", 1)
+2013/10/21 18:07:34 socat[7947] D setenv() -> 0
+2013/10/21 18:07:34 socat[7947] I socat by Gerhard Rieger - see www.dest-unreach.org
+2013/10/21 18:07:34 socat[7947] I This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+2013/10/21 18:07:34 socat[7947] I This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+2013/10/21 18:07:34 socat[7947] D socat version 1.7.2.1 on Oct 21 2013 10:30:40
+2013/10/21 18:07:34 socat[7947] D setenv("SOCAT_VERSION", "1.7.2.1", 1)
+2013/10/21 18:07:34 socat[7947] D setenv() -> 0
+2013/10/21 18:07:34 socat[7947] D running on Darwin version Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64, release 12.5.0, machine x86_64
+
+2013/10/21 18:07:34 socat[7947] D argv[0]: "socat"
+2013/10/21 18:07:34 socat[7947] D argv[1]: "-d"
+2013/10/21 18:07:34 socat[7947] D argv[2]: "-d"
+2013/10/21 18:07:34 socat[7947] D argv[3]: "-d"
+2013/10/21 18:07:34 socat[7947] D argv[4]: "-d"
+2013/10/21 18:07:34 socat[7947] D argv[5]: "-b57600"
+2013/10/21 18:07:34 socat[7947] D argv[6]: "FILE:/dev/tty.Sphero-BOW-AMP-SPP,nonblock,raw,echo=0"
+2013/10/21 18:07:34 socat[7947] D argv[7]: "TCP-LISTEN:8560,fork"
+2013/10/21 18:07:34 socat[7947] D signal(1, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(2, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(3, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(4, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(10, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(8, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(11, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D signal(15, 0x10cf741e8)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D atexit(0x10cf7428d)
+2013/10/21 18:07:34 socat[7947] D atexit() -> 0
+2013/10/21 18:07:34 socat[7947] D signal(13, 0x1)
+2013/10/21 18:07:34 socat[7947] D signal() -> 0x0
+2013/10/21 18:07:34 socat[7947] D calloc(1, 816)
+2013/10/21 18:07:34 socat[7947] D calloc() -> 0x7fc94a404260
+2013/10/21 18:07:34 socat[7947] D malloc(1024)
+2013/10/21 18:07:34 socat[7947] D malloc() -> 0x7fc94a807400
+2013/10/21 18:07:34 socat[7947] I setting option "o-nonblock" to 1
+2013/10/21 18:07:34 socat[7947] I setting option "raw"
+2013/10/21 18:07:34 socat[7947] I setting option "echo" to 0
+2013/10/21 18:07:34 socat[7947] D stat64(/dev/tty.Sphero-BOW-AMP-SPP, 0x7fff52c8e070)
+2013/10/21 18:07:34 socat[7947] D stat64(, {347720680,675,020666,1,0,0,570425362,0,131072,0,...}) -> 0
+2013/10/21 18:07:34 socat[7947] N opening character device "/dev/tty.Sphero-BOW-AMP-SPP" for reading and writing
+2013/10/21 18:07:34 socat[7947] D open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666)
+2013/10/21 18:07:46 socat[7947] I open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666) -> -1
+2013/10/21 18:07:46 socat[7947] E open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666): Resource busy
+2013/10/21 18:07:46 socat[7947] N exit(1)
+retry...
+2013/10/21 18:07:47 socat[7949] D getpid()
+2013/10/21 18:07:47 socat[7949] D getpid() -> 7949
+2013/10/21 18:07:47 socat[7949] D setenv("SOCAT_PID", "7949", 1)
+2013/10/21 18:07:47 socat[7949] D setenv() -> 0
+2013/10/21 18:07:47 socat[7949] D setenv("SOCAT_PPID", "7949", 1)
+2013/10/21 18:07:47 socat[7949] D setenv() -> 0
+2013/10/21 18:07:47 socat[7949] I socat by Gerhard Rieger - see www.dest-unreach.org
+2013/10/21 18:07:47 socat[7949] I This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+2013/10/21 18:07:47 socat[7949] I This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+2013/10/21 18:07:47 socat[7949] D socat version 1.7.2.1 on Oct 21 2013 10:30:40
+2013/10/21 18:07:47 socat[7949] D setenv("SOCAT_VERSION", "1.7.2.1", 1)
+2013/10/21 18:07:47 socat[7949] D setenv() -> 0
+2013/10/21 18:07:47 socat[7949] D running on Darwin version Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64, release 12.5.0, machine x86_64
+
+2013/10/21 18:07:47 socat[7949] D argv[0]: "socat"
+2013/10/21 18:07:47 socat[7949] D argv[1]: "-d"
+2013/10/21 18:07:47 socat[7949] D argv[2]: "-d"
+2013/10/21 18:07:47 socat[7949] D argv[3]: "-d"
+2013/10/21 18:07:47 socat[7949] D argv[4]: "-d"
+2013/10/21 18:07:47 socat[7949] D argv[5]: "-b57600"
+2013/10/21 18:07:47 socat[7949] D argv[6]: "FILE:/dev/tty.Sphero-BOW-AMP-SPP,nonblock,raw,echo=0"
+2013/10/21 18:07:47 socat[7949] D argv[7]: "TCP-LISTEN:8560,fork"
+2013/10/21 18:07:47 socat[7949] D signal(1, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(2, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(3, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(4, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(10, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(8, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(11, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D signal(15, 0x102aca1e8)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D atexit(0x102aca28d)
+2013/10/21 18:07:47 socat[7949] D atexit() -> 0
+2013/10/21 18:07:47 socat[7949] D signal(13, 0x1)
+2013/10/21 18:07:47 socat[7949] D signal() -> 0x0
+2013/10/21 18:07:47 socat[7949] D calloc(1, 816)
+2013/10/21 18:07:47 socat[7949] D calloc() -> 0x7fd558c04260
+2013/10/21 18:07:47 socat[7949] D malloc(1024)
+2013/10/21 18:07:47 socat[7949] D malloc() -> 0x7fd559007400
+2013/10/21 18:07:47 socat[7949] I setting option "o-nonblock" to 1
+2013/10/21 18:07:47 socat[7949] I setting option "raw"
+2013/10/21 18:07:47 socat[7949] I setting option "echo" to 0
+2013/10/21 18:07:47 socat[7949] D stat64(/dev/tty.Sphero-BOW-AMP-SPP, 0x7fff5d138070)
+2013/10/21 18:07:47 socat[7949] D stat64(, {347720680,675,020666,1,0,0,570425362,0,131072,0,...}) -> 0
+2013/10/21 18:07:47 socat[7949] N opening character device "/dev/tty.Sphero-BOW-AMP-SPP" for reading and writing
+2013/10/21 18:07:47 socat[7949] D open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666)
+2013/10/21 18:07:51 socat[7949] I open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666) -> -1
+2013/10/21 18:07:51 socat[7949] E open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666): Resource busy
+2013/10/21 18:07:51 socat[7949] N exit(1)
+retry...
+2013/10/21 18:07:53 socat[7951] D getpid()
+2013/10/21 18:07:53 socat[7951] D getpid() -> 7951
+2013/10/21 18:07:53 socat[7951] D setenv("SOCAT_PID", "7951", 1)
+2013/10/21 18:07:53 socat[7951] D setenv() -> 0
+2013/10/21 18:07:53 socat[7951] D setenv("SOCAT_PPID", "7951", 1)
+2013/10/21 18:07:53 socat[7951] D setenv() -> 0
+2013/10/21 18:07:53 socat[7951] I socat by Gerhard Rieger - see www.dest-unreach.org
+2013/10/21 18:07:53 socat[7951] I This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+2013/10/21 18:07:53 socat[7951] I This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+2013/10/21 18:07:53 socat[7951] D socat version 1.7.2.1 on Oct 21 2013 10:30:40
+2013/10/21 18:07:53 socat[7951] D setenv("SOCAT_VERSION", "1.7.2.1", 1)
+2013/10/21 18:07:53 socat[7951] D setenv() -> 0
+2013/10/21 18:07:53 socat[7951] D running on Darwin version Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64, release 12.5.0, machine x86_64
+
+2013/10/21 18:07:53 socat[7951] D argv[0]: "socat"
+2013/10/21 18:07:53 socat[7951] D argv[1]: "-d"
+2013/10/21 18:07:53 socat[7951] D argv[2]: "-d"
+2013/10/21 18:07:53 socat[7951] D argv[3]: "-d"
+2013/10/21 18:07:53 socat[7951] D argv[4]: "-d"
+2013/10/21 18:07:53 socat[7951] D argv[5]: "-b57600"
+2013/10/21 18:07:53 socat[7951] D argv[6]: "FILE:/dev/tty.Sphero-BOW-AMP-SPP,nonblock,raw,echo=0"
+2013/10/21 18:07:53 socat[7951] D argv[7]: "TCP-LISTEN:8560,fork"
+2013/10/21 18:07:53 socat[7951] D signal(1, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(2, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(3, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(4, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(10, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(8, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(11, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D signal(15, 0x10356f1e8)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D atexit(0x10356f28d)
+2013/10/21 18:07:53 socat[7951] D atexit() -> 0
+2013/10/21 18:07:53 socat[7951] D signal(13, 0x1)
+2013/10/21 18:07:53 socat[7951] D signal() -> 0x0
+2013/10/21 18:07:53 socat[7951] D calloc(1, 816)
+2013/10/21 18:07:53 socat[7951] D calloc() -> 0x7f7fc2c04260
+2013/10/21 18:07:53 socat[7951] D malloc(1024)
+2013/10/21 18:07:53 socat[7951] D malloc() -> 0x7f7fc3007400
+2013/10/21 18:07:53 socat[7951] I setting option "o-nonblock" to 1
+2013/10/21 18:07:53 socat[7951] I setting option "raw"
+2013/10/21 18:07:53 socat[7951] I setting option "echo" to 0
+2013/10/21 18:07:53 socat[7951] D stat64(/dev/tty.Sphero-BOW-AMP-SPP, 0x7fff5c693070)
+2013/10/21 18:07:53 socat[7951] D stat64(, {347720680,675,020666,1,0,0,570425362,0,131072,0,...}) -> 0
+2013/10/21 18:07:53 socat[7951] N opening character device "/dev/tty.Sphero-BOW-AMP-SPP" for reading and writing
+2013/10/21 18:07:53 socat[7951] D open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666)
+2013/10/21 18:07:58 socat[7951] I open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666) -> -1
+2013/10/21 18:07:58 socat[7951] E open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666): Resource busy
+2013/10/21 18:07:58 socat[7951] N exit(1)
+retry...
+2013/10/21 18:08:01 socat[7953] D getpid()
+2013/10/21 18:08:01 socat[7953] D getpid() -> 7953
+2013/10/21 18:08:01 socat[7953] D setenv("SOCAT_PID", "7953", 1)
+2013/10/21 18:08:01 socat[7953] D setenv() -> 0
+2013/10/21 18:08:01 socat[7953] D setenv("SOCAT_PPID", "7953", 1)
+2013/10/21 18:08:01 socat[7953] D setenv() -> 0
+2013/10/21 18:08:01 socat[7953] I socat by Gerhard Rieger - see www.dest-unreach.org
+2013/10/21 18:08:01 socat[7953] I This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+2013/10/21 18:08:01 socat[7953] I This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+2013/10/21 18:08:01 socat[7953] D socat version 1.7.2.1 on Oct 21 2013 10:30:40
+2013/10/21 18:08:01 socat[7953] D setenv("SOCAT_VERSION", "1.7.2.1", 1)
+2013/10/21 18:08:01 socat[7953] D setenv() -> 0
+2013/10/21 18:08:01 socat[7953] D running on Darwin version Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64, release 12.5.0, machine x86_64
+
+2013/10/21 18:08:01 socat[7953] D argv[0]: "socat"
+2013/10/21 18:08:01 socat[7953] D argv[1]: "-d"
+2013/10/21 18:08:01 socat[7953] D argv[2]: "-d"
+2013/10/21 18:08:01 socat[7953] D argv[3]: "-d"
+2013/10/21 18:08:01 socat[7953] D argv[4]: "-d"
+2013/10/21 18:08:01 socat[7953] D argv[5]: "-b57600"
+2013/10/21 18:08:01 socat[7953] D argv[6]: "FILE:/dev/tty.Sphero-BOW-AMP-SPP,nonblock,raw,echo=0"
+2013/10/21 18:08:01 socat[7953] D argv[7]: "TCP-LISTEN:8560,fork"
+2013/10/21 18:08:01 socat[7953] D signal(1, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(2, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(3, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(4, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(10, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(8, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(11, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D signal(15, 0x104b3d1e8)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D atexit(0x104b3d28d)
+2013/10/21 18:08:01 socat[7953] D atexit() -> 0
+2013/10/21 18:08:01 socat[7953] D signal(13, 0x1)
+2013/10/21 18:08:01 socat[7953] D signal() -> 0x0
+2013/10/21 18:08:01 socat[7953] D calloc(1, 816)
+2013/10/21 18:08:01 socat[7953] D calloc() -> 0x7fa702404260
+2013/10/21 18:08:01 socat[7953] D malloc(1024)
+2013/10/21 18:08:01 socat[7953] D malloc() -> 0x7fa702807400
+2013/10/21 18:08:01 socat[7953] I setting option "o-nonblock" to 1
+2013/10/21 18:08:01 socat[7953] I setting option "raw"
+2013/10/21 18:08:01 socat[7953] I setting option "echo" to 0
+2013/10/21 18:08:01 socat[7953] D stat64(/dev/tty.Sphero-BOW-AMP-SPP, 0x7fff5b0c5070)
+2013/10/21 18:08:01 socat[7953] D stat64(, {347720680,675,020666,1,0,0,570425362,0,131072,0,...}) -> 0
+2013/10/21 18:08:01 socat[7953] N opening character device "/dev/tty.Sphero-BOW-AMP-SPP" for reading and writing
+2013/10/21 18:08:01 socat[7953] D open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666)
+2013/10/21 18:08:13 socat[7953] I open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666) -> -1
+2013/10/21 18:08:13 socat[7953] E open("/dev/tty.Sphero-BOW-AMP-SPP", 06, 0666): Resource busy
+2013/10/21 18:08:13 socat[7953] N exit(1)
+Quentins-MacBook-Air:~ quentin$ 
